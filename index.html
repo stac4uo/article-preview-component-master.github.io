@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+
+  <title>stac4uo | Article preview component</title>
+
+
+</head>
+
+<body class="bg-lightGrayishBlue h-screen w-screen flex justify-center items-center ">
+  <main
+    class="font-import  bg-white h-4/5 w-3/4 flex flex-col ju rounded-lg sm:h-3/4 sm:w-1/2 md:h-2/3 md:w-1/2 lg:w-largeSize lg:h-largeSize lg:flex-row  ">
+
+    <section role="zdjecie" class="h-2/5 lg:h-full lg:w-2/5">
+      <img src="./img/drawers.jpg" alt="zdjecie" class="h-full w-full rounded-t-lg">
+
+    </section>
+
+    <section role="nagłowek i teks"
+      class=" h-full flex flex-col justify-between items-center mt-10 lg:h-full lg:mt-0 lg:w-3/5 lg:relative ">
+      <h1 class="w-3/4 text-base font-bold text-vDarkGrayishBlue pb-3 sm:text-lg lg:mt-10  "> Shift the overall
+        look and
+        feel
+        by
+        adding these
+        wonderful
+        touches to furniture in your home
+      </h1>
+
+      <p class=" w-3/4 text-main sm:text-base text-desaturateDarkBlue">Ever been in a room and felt like something was
+        missing?
+        Perhaps
+        it felt slightly bare and uninviting. I’ve got some simple tips
+        to help you make any room feel complete.</p>
+
+      <footer role="stopka z zdjeciem głowna" id="footer"
+        class="  mt-5 h-1/6 w-3/4 flex justify-between items-center lg:mb-5 lg:pr-5 ">
+        <div class=" flex justify-around items-start w-3/4 lg:justify-start">
+          <img class="w-8 rounded-full" src="./img/avatar-michelle.jpg" alt="">
+          <div class="flex flex-col lg:ml-5">
+            <p class="font-bold text-sm">Michell Appleton</p>
+            <p class="text-xs text-desaturateDarkBlue">28 Jun 2020</p>
+          </div>
+        </div>
+        <div id="shareIkon">
+          <!-- strzałka -->
+          <img class="bg-slate-200 w- p-2 rounded-full " src="./img/icon-share.svg" alt="">
+        </div>
+
+      </footer>
+
+      <footer role="czarne tło" id="footer"
+        class="  mt-10 px-5 h-1/6 w-full flex justify-between items-center bg-vDarkGrayishBlue  rounded-b-xl lg:absolute lg:bottom-20 lg:right-3.5 lg:w-2/5 lg:mt-0 lg:rounded-xl lg:z-10 hidden">
+        <div class=" flex  justify-between items-center w-2/3 lg:w-full">
+          <p class="text-desaturateDarkBlue tracking-widest text-sm ">SHARE</p>
+          <img class="w-6 lg:w-5" src="./img/icon-facebook.svg" alt=" Fb logo">
+          <img class="w-6 lg:w-5" src="./img/icon-twitter.svg" alt="twitter logo">
+          <img class="w-6 lg:w-5" src="./img/icon-pinterest.svg" alt="pinterest logo">
+        </div>
+
+        <div id="shareIkon"
+          class="lg:bg-vDarkGrayishBlue lg:w-5 lg:h-5 lg:absolute lg:-bottom-2 lg:left-36 lg:rotate-45">
+          <img class="bg-slate-400 w-8 p-2 rounded-full lg:hidden " src="./img/icon-share-white.svg" alt="">
+        </div>
+
+      </footer>
+    </section>
+
+
+
+    <!-- <footer role="stopka czarna" id="footer"
+      class="bg-vDarkGrayishBlue  h-project rounded-b-xl flex justify-center items-center w-full hidden">
+
+    <div class="flex w-2/3 justify-between">
+      <p class=" text-main text-grayishBlue">SHARE</p>
+      <img src="./img/icon-facebook.svg" alt="" class="w-5 h-5">
+      <img src="./img/icon-twitter.svg" alt="" class="w-5 h-5">
+      <img src="./img/icon-pinterest.svg" alt="" class="w-5 h-5">
+    </div>
+    <div id="shareIkon" class=" flex justify-center items-center ml-8">
+      <img src="./img/icon-share-white.svg" alt="" class=" p-2 bg-slate-500 rounded-full w-8 ">
+    </div>
+    </div>
+    </footer> -->
+
+  </main>
+  <!-- <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>.
+    Coded by <a href="#">Your Name Here</a>.
+  </div> -->
+  <script src="./js/script.js"></script>
+</body>
+
+</html>
